@@ -18,9 +18,15 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            const Text(LocaleKeys.home),
-            const Text(LocaleKeys.welcome),
-            const Text(LocaleKeys.info),
+            Text(
+              LocaleKeys.home.tr(),
+            ),
+            Text(
+              LocaleKeys.welcome.tr(),
+            ),
+            Text(
+              LocaleKeys.info.tr(),
+            ),
             Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
